@@ -8,7 +8,7 @@ authors = ["Michael Birch <Michael Birch <michael.birch@aurora.dev>", "Michael B
 
 [dependencies]
 aurora-engine-types = { git = "https://github.com/aurora-is-near/aurora-engine.git", rev = "5416ffc790f6c98421756f9d06993be4a55875bb", default-features = false, features = ["contracts-std", "impl-serde"], version = "2.9.0" }
-aurora-engine-sdk = { git = "https://github.com/aurora-is-near/aurora-engine/tree/develop/engine-sdk", rev = "5416ffc790f6c98421756f9d06993be4a55875bb", default-features = false, features = ["contract"], version = "2.9.0" }
+aurora-engine-sdk = { git = "https://github.com/aurora-is-near/aurora-engine/tree/develop/engine-sdk", branch="develop", default-features = false, features = ["contract"], version = "2.9.0" }
 ethabi = { version = "17.2.0", default-features = false }
 hex = "0.4"
 near-sdk = { version = "4.1", features = ["abi"] }
