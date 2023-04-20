@@ -1,2 +1,7 @@
 # aurora-sdk-crates-package
-This repository contains the source code for the crates.io package for the Aurora SDK
+
+The `Aurora SDK` is a SDK for cross-contract communication between Aurora and NEAR smart contracts.
+
+
+
+
